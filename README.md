@@ -1,4 +1,4 @@
-# 🚀 PortLens
+#  PortLens
 
 **PortLens** is a multi-threaded TCP port scanner with a modern GUI that helps visualize open ports and identify potential network exposure.
 
@@ -8,18 +8,18 @@ It combines fast scanning with a clean dashboard interface and a simple risk ana
 
 ## 📌 Features
 
-* 🔍 Scan **Top Ports** or full range **(0–65535)**
-* ⚡ Multi-threaded TCP scanning for faster performance
-* 🖥️ Modern **GUI dashboard (Tkinter-based)**
-* 📊 Real-time **progress bar and percentage tracking**
-* 📋 Structured results table (Port | Service | Risk)
-* 🧠 Lightweight **risk analysis system**
-* 🟥 **Stop Scan button** with confirmation prompt
-* 📈 Final **Risk Score summary**
+*  Scan **Top Ports** or full range **(0–65535)**
+*  Multi-threaded TCP scanning for faster performance
+*  Modern **GUI dashboard (Tkinter-based)**
+*  Real-time **progress bar and percentage tracking**
+*  Structured results table (Port | Service | Risk)
+*  Lightweight **risk analysis system**
+*  **Stop Scan button** with confirmation prompt
+*  Final **Risk Score summary**
 
 ---
 
-## 🖼️ Interface Overview
+##  Interface Overview
 
 * Dark-themed, clean dashboard UI
 * Real-time scan progress updates
@@ -38,7 +38,7 @@ It combines fast scanning with a clean dashboard interface and a simple risk ana
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### 1. Clone the repository
 
@@ -55,7 +55,7 @@ python portlens.py
 
 ---
 
-## 🧪 Usage
+##  Usage
 
 1. Enter a **target IP address or domain**
 2. Click:
@@ -81,7 +81,7 @@ Do **not** scan systems without proper permission.
 
 ---
 
-## 💡 Limitations
+##  Limitations
 
 * Uses TCP Connect scanning (not stealth)
 * Results may vary due to:
@@ -93,13 +93,13 @@ Do **not** scan systems without proper permission.
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
-* 📊 Data visualization (charts / graphs)
-* 📁 Export reports (PDF / JSON)
-* 🔍 Service detection (banner grabbing)
-* 🌐 IP intelligence (geo-location, ISP info)
-* 🔄 Pause / Resume scanning
+*  Data visualization (charts / graphs)
+*  Export reports (PDF / JSON)
+*  Service detection (banner grabbing)
+*  IP intelligence (geo-location, ISP info)
+*  Pause / Resume scanning
 
 ---
 
@@ -110,6 +110,11 @@ Cyber Security Enthusiast
 
 ---
 
-## ⭐ Support
+##  Support
 
 If you found this project useful, consider giving it a ⭐ on GitHub!
+
+
+
+
+
