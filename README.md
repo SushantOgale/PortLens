@@ -1,37 +1,37 @@
 # 🚀 PortLens
 
-**PortLens** is a multi-threaded TCP port scanner with a modern GUI that helps visualize open ports and assess potential network exposure.
+**PortLens** is a multi-threaded TCP port scanner with a modern GUI that helps visualize open ports and identify potential network exposure.
 
-It combines fast port scanning with a clean dashboard interface and a simple risk analysis system to highlight critical services.
+It combines fast scanning with a clean dashboard interface and a simple risk analysis system to highlight critical services.
 
 ---
 
 ## 📌 Features
 
 * 🔍 Scan **Top Ports** or full range **(0–65535)**
-* ⚡ Multi-threaded scanning for faster results
-* 🖥️ Modern **GUI dashboard (Tkinter)**
-* 📊 Real-time **progress bar & status updates**
-* 📋 Structured results table (Port, Service, Risk)
+* ⚡ Multi-threaded TCP scanning for faster performance
+* 🖥️ Modern **GUI dashboard (Tkinter-based)**
+* 📊 Real-time **progress bar and percentage tracking**
+* 📋 Structured results table (Port | Service | Risk)
 * 🧠 Lightweight **risk analysis system**
-* 🟥 **Stop Scan button** with confirmation
+* 🟥 **Stop Scan button** with confirmation prompt
 * 📈 Final **Risk Score summary**
 
 ---
 
 ## 🖼️ Interface Overview
 
-* Clean dark-themed UI
-* Live scanning progress (%)
-* Table-based output instead of raw logs
-* Risk-based color highlighting
+* Dark-themed, clean dashboard UI
+* Real-time scan progress updates
+* Table-based output for clarity
+* Risk-based classification of open ports
 
 ---
 
 ## 🛠️ Tech Stack
 
 * **Python 3**
-* `socket` – network communication
+* `socket` – TCP communication
 * `threading` – background execution
 * `concurrent.futures` – multi-threading
 * `tkinter` – GUI development
@@ -43,8 +43,8 @@ It combines fast port scanning with a clean dashboard interface and a simple ris
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/portlens.git
-cd portlens
+git clone https://github.com/SushantOgale/PortLens.git
+cd PortLens
 ```
 
 ### 2. Run the application
@@ -57,14 +57,15 @@ python portlens.py
 
 ## 🧪 Usage
 
-1. Enter a **target IP or domain**
+1. Enter a **target IP address or domain**
 2. Click:
 
-   * **Top Ports** → fast scan of common ports
-   * **Full Scan** → scan all ports (0–65535)
+   * **Top Ports** → quick scan of commonly used ports
+   * **Full Scan** → scans entire range (0–65535)
 3. View results in the table
-4. Check the **risk score summary**
-5. Use **Stop button** to safely interrupt scan
+4. Monitor progress and status in real time
+5. Check final **risk score summary**
+6. Use **Stop button** to safely interrupt scanning
 
 ---
 
@@ -72,23 +73,23 @@ python portlens.py
 
 This tool is intended for:
 
-* Educational purposes
+* Educational use
 * Personal labs
-* Authorized environments only
+* Authorized testing environments
 
-Do **NOT** scan systems without permission.
+Do **not** scan systems without proper permission.
 
 ---
 
 ## 💡 Limitations
 
-* Uses TCP Connect scan (not stealth)
+* Uses TCP Connect scanning (not stealth)
 * Results may vary due to:
 
   * firewalls
   * network latency
   * filtered ports
-* Full scan may take several minutes
+* Full scan may take several minutes depending on the network
 
 ---
 
@@ -97,7 +98,7 @@ Do **NOT** scan systems without permission.
 * 📊 Data visualization (charts / graphs)
 * 📁 Export reports (PDF / JSON)
 * 🔍 Service detection (banner grabbing)
-* 🌐 IP intelligence (geo + ISP info)
+* 🌐 IP intelligence (geo-location, ISP info)
 * 🔄 Pause / Resume scanning
 
 ---
